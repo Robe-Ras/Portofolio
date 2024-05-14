@@ -1,0 +1,108 @@
+/*####################### App Navbar #########################*/
+
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap';
+
+
+
+
+nav.container
+{
+    display: flex;
+    justify-content: space-between; /* Ajouté pour séparer les éléments */
+    margin: 0 auto;
+	padding: 0em 2em;
+	text-align: center;
+    
+}
+
+nav.name {
+    justify-content: end;
+    
+}
+
+nav.links {
+    justify-content: flex-end;
+}
+
+nav.container a
+{
+    color: #272727; // Couleur pour le mode clair
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    margin: 0px 5px; /* Réduisez la marge horizontale */
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    font-weight: 300; 
+}
+
+div.dark nav.container a {
+    color: #999; // Couleur pour le mode sombre
+}
+
+
+
+
+/* Brackets go out */
+nav.brackets a:not(.no-brackets):before, nav.brackets a:not(.no-brackets):after
+{
+    position: absolute;
+    opacity: 0; /* Changed this line */
+    font-size: 20px;
+    top: 6px;
+    transition: all 0.3s;
+    
+}
+
+nav.brackets a.no-brackets:before, nav.brackets a.no-brackets:after {
+    opacity: 0 !important;
+}
+
+nav.brackets a:before
+{
+    content: '{';
+    left: 0px;
+    transform: translateX(10px);
+}
+
+nav.brackets a:after
+{
+    content: '}';
+    right: 0px;
+    transform: translateX(-10px);
+}
+
+nav.brackets a:hover:before, nav.brackets a:hover:after
+{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+
+
+.icon_mode {
+    cursor: pointer;
+    margin-left: 0.8em;
+   
+
+   
+  }
+  
+  .links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+/* ######################### end Navbar ################### */
+
+
+  
+
+  
+  
+  
