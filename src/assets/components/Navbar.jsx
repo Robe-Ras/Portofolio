@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav className="container cyan brackets">
       <div className="brand">
-        <Link className="name" to="/">ROBENA RASOLONDRAMANITRA</Link>
+        <Link className="name" to="/">ROBENA</Link>
       </div>
       <div className='links'>
         <Link to="/projets">Projets</Link>
