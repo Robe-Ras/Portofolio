@@ -10,6 +10,7 @@ import './input.css';
 import './Navbar.scss';
 import ErrorBoundary from '/src/assets/components/ErrorBoundary'; // Assurez-vous d'importer ErrorBoundary
 
+
 export default function App() {
   const darkMode = useDarkMode(false, {
     classNameDark: 'dark-mode',
@@ -33,7 +34,7 @@ export default function App() {
               </Routes>
             </main>
             <footer>  
-              <p>© 2024. All rights reserved.</p>
+              <p className='copyright'>© 2024. All rights reserved. ROBENA</p>
             </footer>
           </div>
         </ErrorBoundary>
@@ -41,4 +42,3 @@ export default function App() {
     </BrowserRouter>
   );
 }
-

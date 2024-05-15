@@ -25,13 +25,13 @@
   padding: 0.7rem;
   background: rgba(255, 255, 255, 0.1); 
   backdrop-filter: blur(10px);
-  border-radius: 4rem;
+  border-radius: 5rem;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   transition: transform 0.3s, box-shadow 0.3s;
   margin: 7rem 0rem 0 0rem; 
   height: auto; 
   box-sizing: border-box;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   animation: float 3s ease-in-out infinite;
 }
 
@@ -51,7 +51,7 @@
   object-fit: scale-down; 
   width: 100%; 
   background: white;
-  border-radius: 4rem;
+  border-radius: 5rem;
   transition: transform 0.3s ease-in-out; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
   margin-bottom: 1rem;
@@ -89,8 +89,8 @@
 .card_button {
   display: flex;
   justify-content: flex-end;
-  border-radius: 4rem;
-  margin-right: 1.5rem;
+  border-radius: 8rem;
+  margin-right: 2rem;
 }
 
 .card_button a:hover {
@@ -278,7 +278,7 @@
 
 .lofi-gif {
   transform: scaleX(-1); 
-  border-radius: 6rem; 
+  border-radius: 8rem; 
   overflow: hidden;
   width: 100%;
   height: auto;

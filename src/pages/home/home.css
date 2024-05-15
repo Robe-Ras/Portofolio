@@ -1,0 +1,185 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.hero {
+  overflow-x: hidden;
+}
+
+.Name1 {
+  color: #fff;
+  font-size: 10rem;
+  font-weight: bold;
+  margin-left: 12rem;
+  margin-bottom:2.5rem;
+  animation: float1 5s ease-in-out infinite;
+}
+
+@keyframes float1 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(var(--random-x1), var(--random-y1)); }
+}
+
+.Name2 {
+  color: #fff;
+  font-size: 10rem;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 12rem;
+  margin-bottom: 2.5rem;
+  animation: float2 5s ease-in-out infinite;
+}
+
+@keyframes float2 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(var(--random-x2), var(--random-y2)); }
+}
+
+.Name3 {
+  color: #fff;
+  font-size: 10rem;
+  font-weight: bold;
+  margin-left: 2rem;
+  margin-bottom: 2.5rem;
+  animation: float3 5s ease-in-out infinite;
+}   
+
+.Name4 {
+  color: #fff;
+  font-size: 10rem;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+  animation: float4 5s ease-in-out infinite;
+}
+
+@keyframes float3 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(var(--random-x3), var(--random-y3)); }
+}
+
+@keyframes float4 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(var(--random-x4), var(--random-y4)); }
+}
+
+.ruby-container {
+  display: flex;
+  align-items: center;
+  animation: float1 5s ease-in-out infinite;
+}
+
+.ruby-gif {
+  margin-left: 3rem;
+  width: 20rem; 
+  height: 8rem; 
+  border-radius: 8rem;
+  object-fit: cover;
+  margin-top: 0;
+  margin-bottom: 1.7rem;
+  animation: float1 5s ease-in-out infinite;
+}
+
+.ror-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  animation: float2 5s ease-in-out infinite;
+}
+
+.ror-gif {
+  margin-left: 0;
+  margin-right: 4rem;
+  width: 20rem;
+  border-radius: 8rem;
+  height: 8rem;
+  object-fit: cover;
+  margin-top: 0;
+  margin-bottom: 1.8rem;
+  animation: float2 5s ease-in-out infinite;
+}
+
+.js-container {
+  display: flex;
+  align-items: center;
+  animation: float3 5s ease-in-out infinite;
+}
+
+.js-gif {
+  margin-left: 4rem;
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover; 
+  margin-top: 0;
+  margin-bottom: 1.8rem;
+  animation: float3 5s ease-in-out infinite;
+}
+
+.react-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  animation: float4 5s ease-in-out infinite;
+}
+
+.react-gif {
+  margin-left: 0;
+  margin-right: 4rem;
+  width: 20rem;
+  border-radius: 8rem;
+  height: 8rem;
+  object-fit: cover;
+  margin-top: 0;
+  margin-bottom: 1.8rem;
+  animation: float4 5s ease-in-out infinite;
+}
+
+@keyframes floatName1 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(var(--random-xName1), var(--random-yName1)); }
+}
+
+@keyframes floatGif1 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(var(--random-xGif1), var(--random-yGif1)); }
+}
+
+@keyframes floatName2 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(var(--random-xName2), var(--random-yName2)); }
+}
+
+@keyframes floatGif2 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(var(--random-xGif2), var(--random-yGif2)); }
+}
+
+@keyframes floatName3 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(var(--random-xName3), var(--random-yName3)); }
+}
+
+@keyframes floatGif3 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(var(--random-xGif3), var(--random-yGif3)); }
+}
+
+@keyframes floatName4 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(var(--random-xName4), var(--random-yName4)); }
+}
+
+@keyframes floatGif4 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(var(--random-xGif4), var(--random-yGif4)); }
+}
+
+.floatName1 { animation: floatName1 4s ease-in-out infinite; }
+.floatGif1 { animation: floatGif1 4s ease-in-out infinite; }
+.floatName2 { animation: floatName2 4s ease-in-out infinite; }
+.floatGif2 { animation: floatGif2 4s ease-in-out infinite; }
+.floatName3 { animation: floatName3 4s ease-in-out infinite; }
+.floatGif3 { animation: floatGif3 4s ease-in-out infinite; }
+.floatName4 { animation: floatName4 4s ease-in-out infinite; }
+.floatGif4 { animation: floatGif4 4s ease-in-out infinite; }
